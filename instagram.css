@@ -1,0 +1,214 @@
+*{
+	box-sizing: border-box;
+}
+html, body{
+	height: 100%;
+	width: 99%;
+	
+
+	background-color: #fafafa;
+}
+
+#grid{
+	width: 55%;
+	height: 90%;
+	border: 2px;
+	
+	display: grid;
+	grid-template-columns: 1fr 1.1fr;
+
+	margin: 50px auto;
+}
+	
+
+#login_wrap{
+	border: 2px;
+	
+	display: grid;
+	grid-template-rows: 4.8fr 1.1fr 2fr;
+	
+	border-color: black;
+
+	
+}
+
+#phone_img{
+	margin: 0 auto;
+}
+
+#phone_img img{
+	display: block;
+	margin: 0 auto;
+
+	width: 100%
+}
+
+#login{
+	background-color: white;
+
+	width: 78%;
+	height: 96%;
+	border: 0.7px solid #c1c1c1;
+	border-radius: 2px;
+	
+	margin-top: 4%;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+
+.input input{
+	display: block;
+	margin : 10px auto;
+	width: 75%;
+	border: 0.7px solid #c1c1c1;
+	border-radius: 3px;
+}
+
+#input_id input, #input_password input{
+	height: 38px;
+	padding-left: 10px;
+	color: #9c9c9c;
+	background-color: #f0f0f0a2;
+	font-size: 13px;
+}
+
+#login_button input{
+	height: 30px;
+	background-color: #b2dffc;
+	color: white;
+	font-weight: bold;
+	font-size: 14px;
+}
+
+#logo img{
+	display: block;
+	margin-top: 12px;
+	margin-bottom: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 55%;
+}
+
+#or{
+	width: 100%;
+	text-align: center;
+	font-size: 13px;
+	color: #9c9c9c;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+#word_or{
+	padding-right: 12px;
+	padding-left: 12px;
+}
+
+#facebook_login{
+	margin: 20px auto;
+	text-align: center;
+}
+
+#facebook_login a{
+	color: #3B5998;
+	font-weight: bold;
+	font-size: 14px;
+}
+
+#password_miss{
+	margin: 0 auto;
+	text-align: center;
+}
+
+#password_miss a{
+	color: #4f6ba8;
+	font-size: 12px;
+}
+
+a{
+	text-decoration: none;
+}
+
+.divider{
+	display: inline-block;
+	width: 100px;
+	background-color: #dbdbdb;
+}
+
+#sign_in{
+	background-color: white;
+
+	width: 78%;
+	height: 70%;
+	border: 0.7px solid #c1c1c1;
+	border-radius: 2px;
+	margin-top: 4%;
+	margin-left: auto;
+	margin-right: auto;
+
+	text-align: center;
+}
+
+#sign_in_text{
+	display: block;
+	margin-top: 22px;
+	font-size: 14px;
+}
+
+#sign_in_text a{
+	color: #00a7f8;
+	font-weight: bold;
+}
+
+#download{
+	text-align: center;
+	font-size: 14px;
+}
+
+#app a img{
+	margin-top: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 33%;
+}
+
+#footer{
+	display: block;
+	overflow: hidden;
+	width: 55%;
+	margin: 0 auto;
+	height: 100px;
+
+	text-align: center;
+}
+
+.link-item{
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	font-size: 12px;
+	float: left;
+	padding-right: 10px;
+	padding-left: 10px;
+
+	
+}
+
+.link-item a{
+	margin: 0 auto;
+	color: #9c9c9c;
+}
+
+#links{
+	width: 70%;
+	display: block;
+	margin: 0 auto;
+	
+	height: 15px;
+	text-align: center;
+}
+
+.copyright{
+	font-size: 12px;
+	color: #9c9c9c;
+}
